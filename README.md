@@ -36,7 +36,7 @@ Right now, your project already has two new rake tasks: `postgresql_backup:dump`
 
 ## Configuration
 
-If you intend to use the local file system to store the backup files, there is nothing more you need to do. Postgresql-backup has default configuration values and it uses the file system by default.
+If you intend to use the local file system to store the backup files, there is nothing more you need to do. Postgresql-backup-sql has default configuration values and it uses the file system by default.
 
 However, if you want to change the defaul values, like the name of the backup files or the folder where they are going to be stored, or if you prefer to use Amazon S3 service as a storage, you can do it.
 

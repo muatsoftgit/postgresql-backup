@@ -2,8 +2,8 @@
 
 puts 'Bumping patch and creating tag'
 system('bump patch --tag')
-system('gem build postgresql-backup.gemspec')
+system('gem build postgresql-backup-sql.gemspec')
 
 version = `bump current`.split(': ').last.chomp
-cmd = "gem push postgresql-backup-#{version}.gem"
+cmd = "gem push postgresql-backup-sql-#{version}.gem"
 system(cmd)
