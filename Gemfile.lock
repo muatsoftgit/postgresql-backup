@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    postgresql-backup (0.0.7)
+    postgresql-backup-sql (0.0.8)
       fog-aws (~> 3.13.0)
       pastel (~> 0.8.0)
       tty-prompt (~> 0.23.0)
@@ -14,7 +14,7 @@ GEM
     bump (0.8.0)
     diff-lcs (1.5.0)
     docile (1.4.0)
-    excon (0.92.2)
+    excon (0.94.0)
     fog-aws (3.13.0)
       fog-core (~> 2.1)
       fog-json (~> 1.1)
@@ -34,10 +34,8 @@ GEM
     mime-types (3.4.1)
       mime-types-data (~> 3.2015)
     mime-types-data (3.2022.0105)
-    mini_portile2 (2.8.0)
     multi_json (1.15.0)
-    nokogiri (1.13.4)
-      mini_portile2 (~> 2.8.0)
+    nokogiri (1.13.8-x86_64-linux)
       racc (~> 1.4)
     pastel (0.8.0)
       tty-color (~> 0.5)
@@ -80,9 +78,9 @@ PLATFORMS
 
 DEPENDENCIES
   bump (~> 0.8.0)
-  postgresql-backup!
+  postgresql-backup-sql!
   rspec (~> 3.10.0)
   simplecov (~> 0.21.2)
 
 BUNDLED WITH
-   2.3.11
+   2.3.7

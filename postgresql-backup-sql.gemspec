@@ -1,11 +1,11 @@
 Gem::Specification.new do |s|
-  s.name        = 'postgresql-backup'
-  s.version     = '0.0.7'
+  s.name        = 'postgresql-backup-sql'
+  s.version     = '0.0.8'
   s.summary     = "Automate PostgreSQL's backup and restore"
-  s.description = "This gem automates PostgreSQL's backup and restore in your Rails project. It will inject two rake tasks that you can use to manage your data, either by using the local system or AWS S3 storage."
-  s.authors     = ["Artur Caliendo Prado"]
-  s.email       = 'artur.prado@gmail.com'
-  s.homepage    = 'https://github.com/arturcp/postgresql-backup'
+  s.description = "This gem automates PostgreSQL's backup and restore in your Rails project. It will inject two rake tasks that you can use to manage your data, either by using the local system or AWS S3 storage. forked from arturcp/postgresql-backup"
+  s.authors     = ["Adário Muatelembe"]
+  s.email       = 'amuatelembe@gmail.com'
+  s.homepage    = 'https://github.com/muatsoftgit/postgresql-backupp'
   s.files       = `git ls-files -- lib/*`.split("\n")
   s.files       += %w[README.md CHANGELOG.md]
   s.license     = 'MIT'

@@ -2,7 +2,7 @@
 
 This gem automates PostgreSQL's backup and restore in your Rails project. It will inject two rake tasks that you can use to manage your data, either by using the local system or AWS S3 storage.
 
-The current version supports ruby 3. If you need backward compatibiliy, use [v0.0.6](https://rubygems.org/gems/postgresql-backup/versions/0.0.6) instead.
+The current version supports ruby 3. If you need backward compatibiliy.
 
 ## How it looks like?
 
@@ -17,7 +17,7 @@ Restore:
 Add the gem to your Rails project:
 
 ```ruby
-gem 'postgresql-backup'
+gem 'postgresql-backup-sql'
 ```
 
 Go to the terminal and update your gems using bundler:
